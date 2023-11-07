@@ -17,7 +17,23 @@ cd src
 ```
 touch Dockerfile
 ```
-### create a nodejs docker file image below
+### create a nodejs docker file 
+```
+check official node image dockerhub
+```
+### Build the image 
+```
+docker build -t <name of image> .
+```
+### Run the image
+```
+docker run -d -p 8000:8000 <name of image>
+```
+### Check if the app is running on the browser with localhost
+```
+http://localhost:8000
+```
+
 
 
 
